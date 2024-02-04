@@ -57,6 +57,7 @@ int main()
     if (disc < 0)
     {
         root1 = (-b) / (2 * a);
+        sqrtdisc /= 2 * a;
         printf("The roots are Imaginary\n");
         printf("Root1: %.2f + %.2fi, Root2: %.2f - %.2fi\n", root1, sqrtdisc, root1, sqrtdisc);
     }
