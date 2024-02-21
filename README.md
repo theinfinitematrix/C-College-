@@ -30,6 +30,6 @@ While this repository primarily serves as a personal portfolio, I'm open to cons
 
 ## Contact
 
-If you have any questions, suggestions, or just want to connect, you can reach me via email at [your.email@example.com].
+If you have any questions, suggestions, or just want to connect, you can reach me via email at nishant9693@outlook.com.
 
 Happy coding!
