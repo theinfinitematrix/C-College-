@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-int getSize(char *str)
+int getSize(char str[])
 {
     int size = 0;
     for (int i = 0; i < 100; i++)
@@ -16,13 +16,13 @@ int getSize(char *str)
     }
     return size;
 }
-void swap(char *str, int i, int j)
+void swap(char str[], int i, int j)
 {
     char temp = str[i];
     str[i] = str[j];
     str[j] = temp;
 }
-void reverseString(char *str, int s, int e)
+void reverseString(char str[], int s, int e)
 {
     if (s > e)
     {
