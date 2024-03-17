@@ -36,8 +36,7 @@ int main()
 {
     char str[100];
     printf("Input: ");
-    fgets(str, sizeof(str), stdin);
-    str[strcspn(str, "\n")] = '\0';
+    scanf("%[^\n]s", str);
     int size = getSize(str);
     reverseString(str, 0, size - 1);
     printf("Output: %s\n", str);
